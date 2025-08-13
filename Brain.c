@@ -83,31 +83,31 @@ Matrix midK = {
         {n, 0, 0, 0, n}
     }
 };
-#define n 2 
+#define nn 2 
 typedef struct {
     int N[5][5];
 } M2;
 M2 multiply = {
     .N = {
-        {n, n, n, n, n},
-        {0, n, 0, n, 0},
-        {0, n, 0, n, 0},
-        {0, n, 0, n, 0},
-        {0, n, 0, n, 0}
+        {nn, nn, nn, nn, nn},
+        {0,  nn, 0,  nn, 0},
+        {0,  nn, 0,  nn, 0},
+        {0,  nn, 0,  nn, 0},
+        {0,  nn, 0,  nn, 0}
     }
 };
 
-#define n 3 
+#define nnn 3 
 typedef struct {
     int N[5][5];
 } M3;
 M3 sum = {
     .N = {
-        {n, n, n, n, n},
-        {0, n, 0, 0, 0},
-        {0, 0, n, 0, 0},
-        {0, n, 0, 0, 0},
-        {n, n, n, n, n}
+        {nnn, nnn, nnn, nnn, nnn},
+        {0,   nnn, 0,   0,     0},
+        {0,   0,   nnn, 0,     0},
+        {0,   nnn, 0,   0,     0},
+        {nnn, nnn, nnn, nnn, nnn}
     }
 };
 int fn(a,b,c,d,e,f){
@@ -164,4 +164,5 @@ void XYZNNN(X,Y,Z,N){
       pow ;X1 ^ X2;rightK;
       pow ;Y1 ^ Y2;midK;
       pow ;Z1 ^ Z2;leftK;
+
 }
