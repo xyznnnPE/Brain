@@ -90,10 +90,10 @@ typedef struct {
 M2 multiply = {
     .N = {
         {nn, nn, nn, nn, nn},
-        {0,  nn, 0,  nn, 0},
-        {0,  nn, 0,  nn, 0},
-        {0,  nn, 0,  nn, 0},
-        {0,  nn, 0,  nn, 0}
+        {0,  nn, 0,  nn,  0},
+        {0,  nn, 0,  nn,  0},
+        {0,  nn, 0,  nn,  0},
+        {0,  nn, 0,  nn,  0}
     }
 };
 
@@ -164,5 +164,4 @@ void XYZNNN(X,Y,Z,N){
       pow ;X1 ^ X2;rightK;
       pow ;Y1 ^ Y2;midK;
       pow ;Z1 ^ Z2;leftK;
-
 }
