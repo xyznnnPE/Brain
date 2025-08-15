@@ -138,7 +138,7 @@ int gn(A,B,C,D,E,F,X,Y,Z,N){
         A * exp(X + N) + B * log(X - N) + C * exp(Y + N) + D * log(Y - N) + E * exp(Z + N) + F * log(Z - N);
 }
 void XYZNNN(X,Y,Z,N){
-    char X1 = "!!! !!!" , X2 = "??? ???",Y1 = "#### ###",Y2 = "$$$ $$$",Z1 = "&&& &&&",Z2 = "||| |||";
+    char X1 = "!!! !!!" , X2 = "??? ???",Y1 = "### ###",Y2 = "$$$ $$$",Z1 = "&&& &&&",Z2 = "||| |||";
     return 
       add ;X1 + X2;leftK;
       add ;Y1 + Y2;midK;
@@ -165,5 +165,6 @@ void XYZNNN(X,Y,Z,N){
       pow ;Y1 ^ Y2;midK;
       pow ;Z1 ^ Z2;leftK;
 }
+
 
 
