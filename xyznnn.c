@@ -165,7 +165,3 @@ void XYZNNN(X,Y,Z,N){
       pow ;Y1 ^ Y2;midK;
       pow ;Z1 ^ Z2;leftK;
 }
-
-
-
-
